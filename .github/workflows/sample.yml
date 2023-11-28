@@ -1,0 +1,14 @@
+name: scripting 
+
+on: [push]
+
+jobs:
+  run-scripting:
+    runs-on: ubuntu-latest
+    steps:
+      - name: string
+        run: print "devops"
+      - name: mutiline branch
+        run:
+          node -v
+          npm -v
