@@ -1,13 +1,13 @@
-name: scripting 
+name: shell commands
 
 on: [push]
 
 jobs:
-  run-scripting:
+  run-shell-commands:
     runs-on: ubuntu-latest
     steps:
       - name: string
-        run: print "devops"
+        run: echo "Welcome to suneeltesthub1234!"
       - name: mutiline branch
         run:
           node -v
